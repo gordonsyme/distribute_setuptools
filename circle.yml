@@ -1,5 +1,3 @@
 checkout:
   post:
-    - source /home/ubuntu/distribute_setuptools//venv/bin/activate
-    - pip show distribute
-    - pip show setuptools
+    - "source /home/ubuntu/distribute_setuptools//venv/bin/activate && pip show distribte setuptools"
