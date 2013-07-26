@@ -1,5 +1,4 @@
 checkout:
-  pre:
-    - source /home/ubuntu/distribute_setuptools/venv/bin/activate
+  post:
     - pip show distribute
     - pip show setuptools
