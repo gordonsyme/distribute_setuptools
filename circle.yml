@@ -1,0 +1,5 @@
+machine:
+  post:
+    - source ~/venv/bin/activate
+    - pip show distribute
+    - pip show setuptools
