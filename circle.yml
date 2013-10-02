@@ -4,4 +4,4 @@ checkout:
 
 test:
   override:
-    - long_command.sh
+    - ./long_command.sh
