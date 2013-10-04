@@ -1,6 +1,8 @@
 machine:
   services:
     - apache2
+  php:
+    version: system
 
 checkout:
   post:
