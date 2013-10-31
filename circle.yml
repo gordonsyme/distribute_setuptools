@@ -1,9 +1,10 @@
 machine:
   services:
     - apache2
-  php:
-    version: system
 
 checkout:
+  pre:
+    - "echo 'checkout pre'"
   post:
+    - "echo 'checkout post'"
     - "source /home/ubuntu/distribute_setuptools//venv/bin/activate && pip show distribute setuptools"
